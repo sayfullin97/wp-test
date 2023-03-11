@@ -1,27 +1,21 @@
 
-// abstracts
+// абстракции
 @import "abstracts/variables";
 
-// vendors
-@import "node_modules/bootstrap/scss/bootstrap";
-
-// vendors overrides
-// @import "vendors/myvendor";
-
-// base
+// базовые стили
 @import "base/fonts",
         "base/base";
 
-// layout
+// макеты
 @import "layout/header",
         "layout/footer",
         "layout/forms",
         "layout/grid";
 
-// components
+// компоненты
 @import "components/buttons",
         "components/modal";
 
-// pages
+// страницы
 @import "pages/front-page",
         "pages/page";

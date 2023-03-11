@@ -1,3 +1,3 @@
 <?php
 
-// Utilities functions here
+// Функции утилитов добавляем сюда

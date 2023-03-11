@@ -2,31 +2,30 @@
 
 ![](screenshot.png)
 
-## Under the hood
+## Под капотом
 
 - [ES6](https://github.com/lukehoban/es6features#readme) for JavaScript (transpiling with [Babel](https://babeljs.io/) and linting with [ESLint](https://eslint.org/))
-- [SASS](http://sass-lang.com/) preprocessor for CSS following [SASS Guidelines](https://sass-guidelin.es/#the-7-1-pattern)
-- [Bootstrap 5](https://getbootstrap.com/docs/5.2/getting-started/introduction/) as CSS framework ([customizable with SASS](https://getbootstrap.com/docs/5.2/customize/sass/))
-- [Gulp 4](https://gulpjs.com/) & [Webpack 5](https://webpack.js.org/) to manage, compile and optimize theme assets
-- SVG Sprite : create a folder containing all your SVGs like `assets/src/svg/sprite` and run your watch or build
+- [SASS](http://sass-lang.com/) препроцессор для CSS [SASS Guidelines](https://sass-guidelin.es/#the-7-1-pattern)
+- [Gulp 4](https://gulpjs.com/) & [Webpack 5](https://webpack.js.org/) управлять, компилировать и оптимизировать asset'ы
+- SVG Sprite : создайте папку, содержащую все ваши SVG, например: `assets/src/svg/sprite` и запустите свои watch
 
-## Requirements
+## Требования
 
 * [Node](https://nodejs.org/)
 * [Gulp](https://gulpjs.com/docs/en/getting-started/quick-start)
 
-## Usage
+## Применение
 
-First, clone this repository in your WordPress themes directory.
+Сначала клонируйте этот репозиторий в каталог тем WordPress.
 
-Then, run the following commands in the theme's directory :
+Затем выполните следующие команды в каталоге темы :
 
 	npm install
 
-Launch your watch for assets with :
+Запустите ваш watch для asset'ов с помощью :
 
 	npm run start
 
-For production sites, create your build with :
+Для боевого сайта (production) создайте свою сборку с помощью :
 
 	npm run build

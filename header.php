@@ -11,22 +11,32 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
+	<header id="header" class="header">
+		<div class="header__brand">
 			<?php
 			if ( is_front_page() || is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="header__brand_logo">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<?php bloginfo( 'name' ); ?>
+					</a>
+				</h1>
 			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="header__brand_logo">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<?php bloginfo( 'name' ); ?>
+					</a>
+				</p>
 			<?php
 			endif;
 			?>
 
-		</div><!-- .site-branding -->
+		</div>
 
-		<nav id="site-navigation" class="main-navigation">
+		<nav id="header-navigation" class="main-navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'menu-main', 'menu_id' => 'menu-main' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+		</nav>
+		<!-- #header-navigation -->
+	</header>
+	<!-- #header -->
 
-	<div id="content" class="site-content">
+	<div id="content" class="content">

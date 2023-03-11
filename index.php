@@ -18,7 +18,7 @@ get_header();
                 </section>
 
 		        <?php
-	        endwhile; // End of the loop.
+	        endwhile; // Конец цикла.
 	        ?>
 
         </main><!-- #main -->

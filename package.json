@@ -1,13 +1,12 @@
 {
-  "name": "blank-theme",
-  "description": "A starter-kit for WordPress themes",
+  "name": "Чистая тема",
+  "description": "Стартовая тема для WordPress с Webpack и Gulp",
   "version": "1.0.0",
-  "author": "Olivier Guilleux",
-  "authorURI": "https://www.olivier-guilleux.com",
+  "author": "Karen Baytalov",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/oguilleux/webpack-gulp-wordpress-starter-theme.git"
+    "url": "git://github.com/baytalov/webpack-gulp-wordpress.git"
   },
   "keywords": [
     "wordpress",
@@ -17,7 +16,7 @@
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
-    "postinstall": "gulp build && echo \"THEME INSTALLED, GOOD TO GO !\""
+    "postinstall": "gulp build && echo \"ТЕМА УСТАНОВЛЕНА, АЧАЧЬ!\""
   },
   "engines": {
     "node": ">=16.0.0",
@@ -65,7 +64,4 @@
     "webpack": "5.75.0",
     "webpack-stream": "7.0.0"
   },
-  "dependencies": {
-    "bootstrap": "5.2.3"
-  }
 }

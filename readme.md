@@ -4,7 +4,7 @@
 
 ## Под капотом
 
-- [ES6](https://github.com/lukehoban/es6features#readme) for JavaScript (transpiling with [Babel](https://babeljs.io/) and linting with [ESLint](https://eslint.org/))
+- [ES6](https://github.com/lukehoban/es6features#readme) для JavaScript (перенос с помощью [Babel](https://babeljs.io/) и анализ с помощью [ESLint](https://eslint.org/))
 - [SASS](http://sass-lang.com/) препроцессор для CSS [SASS Guidelines](https://sass-guidelin.es/#the-7-1-pattern)
 - [Gulp 4](https://gulpjs.com/) & [Webpack 5](https://webpack.js.org/) управлять, компилировать и оптимизировать asset'ы
 - SVG Sprite : создайте папку, содержащую все ваши SVG, например: `assets/src/svg/sprite` и запустите свои watch

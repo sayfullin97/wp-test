@@ -12,8 +12,8 @@ var c = require('ansi-colors');
 // utils
 var lazyQuire      = require('./gulp/core/utils/lazyQuire');
 
-// gulpfile booting message
-log(c.green('Starting Gulp! Please wait...'));
+// сообщение о загрузке gulpfile
+log(c.green('Запускаю Gulp! подожди секунду бро...'));
 
 
 /**

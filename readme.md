@@ -1,4 +1,4 @@
-# WordPress Gulp and Webpack starter theme
+# Стартовая тема для WordPress с Gulp и Webpack
 
 ![](screenshot.png)
 

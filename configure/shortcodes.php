@@ -1,3 +1,3 @@
 <?php
 
-// Shortcode functions here
+// Функции шорткодов [shortcode] добавляем сюда

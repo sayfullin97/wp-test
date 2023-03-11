@@ -1,3 +1,3 @@
 <?php
 
-// Custom Post types & Taxonomies here
+// Пользовательские типы записей и таксономии добавляем сюда

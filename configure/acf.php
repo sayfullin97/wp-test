@@ -1,3 +1,3 @@
 <?php
 
-// ACF functions here
+// ACF функции добавляем сюда
